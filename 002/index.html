@@ -11,19 +11,22 @@
     <div class="main">
         <div class="productos">
             <div class="p1">
+                <h4 id="cami-e">camisa europea</h4>
                 <img src="https://www.camiseriaeuropea.com/cdn/shop/products/876MUJER_001.jpg?v=1667226692&width=823" alt="">
                 <span id="p1">25</span>
-                <button onclick="aggcarrito('p1')">Agregar al carrito</button>
+                <button onclick="aggcarrito('cami-e','p1')">Agregar al carrito</button>
             </div>
             <div class="p2">
+                <h4 id="cami-m">camisa monarca</h4>
                 <img src="https://monarca.com.co/wp-content/uploads/2024/06/041458DELDENIMML.jpg" alt="">
                 <span id="p2">70</span>
-                <button onclick="aggcarrito('p2')">Agregar al carrito</button>
+                <button onclick="aggcarrito('cami-m', 'p2')">Agregar al carrito</button>
             </div>
             <div class="p3">
+                <h4 id="cami-t">camisa thundra</h4>
                 <img src="https://www.thundra.co/wp-content/uploads/2022/06/Referencia-5-01.jpg" alt="">
                 <span id="p3">17</span>
-                <button onclick="aggcarrito('p3')">Agregar al carrito</button>
+                <button onclick="aggcarrito('cami-t', 'p3')">Agregar al carrito</button>
             </div>
         </div>
 
@@ -39,7 +42,12 @@
                     <span id="total-precio">0</span>
                 </div>
             </div>
+            
+            <div>
+                <button onclick="vaciar()">Vaciar carrito</button>
+            </div>
         </div>
+
     </div>
     
 </body>
